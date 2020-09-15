@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (5.2.0)
+  - KDCircularProgress (1.5.4)
+  - Realm (5.0.0):
+    - Realm/Headers (= 5.0.0)
+  - Realm/Headers (5.0.0)
+  - RealmSwift (5.0.0):
+    - Realm (= 5.0.0)
+  - RxAlamofire (5.4.0):
+    - RxAlamofire/Core (= 5.4.0)
+  - RxAlamofire/Core (5.4.0):
+    - Alamofire (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRealm (3.0.0):
+    - RealmSwift (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - KDCircularProgress
+  - RealmSwift
+  - RxAlamofire
+  - RxCocoa
+  - RxGesture
+  - RxRealm
+  - RxSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KDCircularProgress
+    - Realm
+    - RealmSwift
+    - RxAlamofire
+    - RxCocoa
+    - RxGesture
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
+  Realm: 76066d333de26f97e9caedaa85ee3ff4a62ca265
+  RealmSwift: c1bdff09b422569dc6881410d9ccf712bcdb79b0
+  RxAlamofire: a820c3fd2ae1bed8851a1f99b16c90f8568dc062
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRealm: af7a3c857efd5a711c176f6df0d67418ad48293b
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: a9d6c1d6c1fd7026f5031f52289edb3ab7957a11
+
+COCOAPODS: 1.9.1

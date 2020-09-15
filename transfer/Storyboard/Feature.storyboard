@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Axm-lZ-hbF">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--StatisticVC-->
+        <scene sceneID="WRV-Y1-pfE">
+            <objects>
+                <viewController storyboardIdentifier="StatisticVC" id="Axm-lZ-hbF" customClass="StatisticVC" customModule="transfer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="89h-vA-PgX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N0e-Kh-q50">
+                                <rect key="frame" x="216" y="16" width="182" height="210"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="0Au-5o-Kb1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ftf-vv-4Y0">
+                                <rect key="frame" x="16" y="16" width="182" height="210"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="xWI-av-HZf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PR7-p8-5km" firstAttribute="trailing" secondItem="N0e-Kh-q50" secondAttribute="trailing" constant="16" id="LyG-yD-215"/>
+                            <constraint firstItem="ftf-vv-4Y0" firstAttribute="top" secondItem="PR7-p8-5km" secondAttribute="top" constant="16" id="WlM-sm-c43"/>
+                            <constraint firstItem="ftf-vv-4Y0" firstAttribute="width" secondItem="89h-vA-PgX" secondAttribute="width" multiplier="0.44" id="ZDS-Gq-vIs"/>
+                            <constraint firstItem="N0e-Kh-q50" firstAttribute="top" secondItem="PR7-p8-5km" secondAttribute="top" constant="16" id="faE-g3-Wrj"/>
+                            <constraint firstItem="ftf-vv-4Y0" firstAttribute="leading" secondItem="PR7-p8-5km" secondAttribute="leading" constant="16" id="jzg-05-2jz"/>
+                            <constraint firstItem="N0e-Kh-q50" firstAttribute="width" secondItem="89h-vA-PgX" secondAttribute="width" multiplier="0.44" id="tK4-Y1-ihz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PR7-p8-5km"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ge-lN-6d3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213.04347826086959" y="105.97826086956522"/>
+        </scene>
+    </scenes>
+</document>
